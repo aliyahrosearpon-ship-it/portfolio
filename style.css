@@ -135,3 +135,93 @@ footer {
 .contact p a {
     color: white;
 }
+
+/* Tablets (max-width: 1024px) */
+@media (max-width: 1024px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    .about p {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    section {
+        padding: 200px 30px;
+    }
+}
+
+/* Mobile Devices (max-width: 768px) */
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .hero img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .about p {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    section {
+        padding: 150px 20px;
+    }
+
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-card {
+        width: 90%;
+    }
+}
+
+/* Small Phones (max-width: 480px) */
+@media (max-width: 480px) {
+
+    header {
+        padding: 10px;
+    }
+
+    .first {
+        font-size: large;
+    }
+
+    .hero {
+        height: auto;
+        padding: 40px 10px;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 100px 15px;
+    }
+}
